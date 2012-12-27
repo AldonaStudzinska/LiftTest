@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body class="lift:content_id=main">
+	<div id="main" class="lift:surround?with=default;at=content">
+		<div class="lift:Page1" style="margin: 50px;">
+			<div class="lista"></div>
+			<div class="tabbable">
+				<!-- Only required for left/right tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Section
+							1</a></li>
+					<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<div class="lift:LazyLoad">
+							<lift:embed what="subfolder/tab1" />
+						</div>
+					</div>
+					<div class="tab-pane" id="tab2">
+						<div class="lift:LazyLoad">
+							<lift:embed what="subfolder/tab2" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
