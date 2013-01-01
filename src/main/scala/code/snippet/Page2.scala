@@ -5,6 +5,6 @@ import Helpers._
 
 class Page2 {
   def render = {
-    ".lista *" #> "Ubrania"
+    ".lista *" #> "Page 2"
   }
 }

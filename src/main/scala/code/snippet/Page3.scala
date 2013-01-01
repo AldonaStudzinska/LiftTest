@@ -5,6 +5,7 @@ import Helpers._
 
 class Page3 {
   def render = {
-    ".lista *" #> "Ubrania"
+    throw new Exception("exception")
+    ".lista *" #> "Page 3"
   }
 }
